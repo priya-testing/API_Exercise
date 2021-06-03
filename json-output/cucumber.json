@@ -1,0 +1,537 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Checking all starwars characters valid data scenario",
+        "description": "",
+        "id": "verify-the-functionality-of-swapi-website-feature;checking-all-starwars-characters-valid-data-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 4058088500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "apistepdefn.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36787943100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should launch swapi.dev",
+            "match": {
+              "location": "apistepdefn.LaunchURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 177121600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter valid service URL for all characters",
+            "match": {
+              "location": "apistepdefn.validDataforAllCharacters()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 501038700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on the request button",
+            "match": {
+              "location": "apistepdefn.clickRequestforAllCharacters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311280700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check final result",
+            "match": {
+              "location": "apistepdefn.validateOutput()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Checking starwars all characters by using invalid data scenario",
+        "description": "",
+        "id": "verify-the-functionality-of-swapi-website-feature;checking-starwars-all-characters-by-using-invalid-data-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 3212109800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "apistepdefn.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12502613400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User must open swapi.dev",
+            "match": {
+              "location": "apistepdefn.useMustOpenSwapi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 405213900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "enter all starwars characters invalid data",
+            "match": {
+              "location": "apistepdefn.AllCharWithInvalidData()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 356671000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click request button",
+            "match": {
+              "location": "apistepdefn.clickRequestforAllCharInvalidData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66908500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "check displayed result",
+            "match": {
+              "location": "apistepdefn.checkAllCharInvalidDataResult()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Checking specific character output with valid data",
+        "description": "",
+        "id": "verify-the-functionality-of-swapi-website-feature;checking-specific-character-output-with-valid-data",
+        "after": [
+          {
+            "result": {
+              "duration": 2581097600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "apistepdefn.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12186917300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User must be on swapi",
+            "match": {
+              "location": "apistepdefn.userOnSwapi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185677600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "enter valid service URL for starwars specific character",
+            "match": {
+              "location": "apistepdefn.validServiceURLofSpecificCharacter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432770700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click on request box",
+            "match": {
+              "location": "apistepdefn.click_on_Request_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52613000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "confirm the result",
+            "match": {
+              "location": "apistepdefn.checkFinalResult()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Checking starwars specific character using invalid service URL",
+        "description": "",
+        "id": "verify-the-functionality-of-swapi-website-feature;checking-starwars-specific-character-using-invalid-service-url",
+        "after": [
+          {
+            "result": {
+              "duration": 4266518100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "apistepdefn.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13234222900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should launch the website",
+            "match": {
+              "location": "apistepdefn.userLaunchSwapi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 280117200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "enter invalid service URL for specific character",
+            "match": {
+              "location": "apistepdefn.invalidServiceURLforSpecificCharacter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 444574300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "do click on the request button",
+            "match": {
+              "location": "apistepdefn.requestButtonforInvalidSpecificCharacterURL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80770400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "confirm if the end result displayed",
+            "match": {
+              "location": "apistepdefn.resultofInvalidserviceURLforspecificChar()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Checking serching with valid data scenario",
+        "description": "",
+        "id": "verify-the-functionality-of-swapi-website-feature;checking-serching-with-valid-data-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 3875146900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "apistepdefn.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13228571300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User should open firefox and type swapi URL",
+            "match": {
+              "location": "apistepdefn.openSwapi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 261834400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "enter valid planets/characters valid serviceURL",
+            "match": {
+              "location": "apistepdefn.searchWithValidData()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 356682000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "click the request btn",
+            "match": {
+              "location": "apistepdefn.requestButtonforValidSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44051800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "check the outcome",
+            "match": {
+              "location": "apistepdefn.resultofValidSearchData()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 31,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "Searching with invalid data result scenario",
+        "description": "",
+        "id": "verify-the-functionality-of-swapi-website-feature;searching-with-invalid-data-result-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 2688056600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "apistepdefn.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11185599100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User must be on homepage of swapi.dev",
+            "match": {
+              "location": "apistepdefn.userMustBeOnSwapiHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165940900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "enter invalid service URL to search planets/characters",
+            "match": {
+              "location": "apistepdefn.searchWithInvalidData()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 417417200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "do click on request",
+            "match": {
+              "location": "apistepdefn.requestButtonforSearchInvalidData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46500700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "check if the final result is available",
+            "match": {
+              "location": "apistepdefn.resultofSearchWithInvalidData()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 38,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Checking the blank input functionality scenario",
+        "description": "",
+        "id": "verify-the-functionality-of-swapi-website-feature;checking-the-blank-input-functionality-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 3294191000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "apistepdefn.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12605347300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User should be on homepage of swapi.dev",
+            "match": {
+              "location": "apistepdefn.userIsOnHomepageofSwapi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73176800,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "keep service URL field blank",
+            "match": {
+              "location": "apistepdefn.blankServiceURLField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 283481100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "click on the request",
+            "match": {
+              "location": "apistepdefn.clickRequestforBlankURL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136380500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "check if the result is displayed",
+            "match": {
+              "location": "apistepdefn.blankServiceURLResult()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the functionality of Swapi website feature",
+    "description": "",
+    "id": "verify-the-functionality-of-swapi-website-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/prash/eclipse-workspace/StarwarsAPIProject/src/main/java/Feature/StarwarSearch.feature"
+  }
+]
